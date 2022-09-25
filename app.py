@@ -5,6 +5,7 @@ from one_post.views import one_post_blueprint
 from user_feed.views import user_feed_blueprint
 from api_posts.api_views import api_posts_blueprint
 from api_logs import loggers
+import gunicorn
 
 app = Flask(__name__)
 
