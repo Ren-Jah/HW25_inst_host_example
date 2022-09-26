@@ -7,8 +7,8 @@ from classes.post import Post
 
 api_posts_blueprint = Blueprint('api_posts_blueprint', __name__)
 
-PATH_DATA = "../skyprogram/data/data.json"
-PATH_COMMENTS = "../skyprogram/data/comments.json"
+PATH_DATA = "../app/data/data.json"
+PATH_COMMENTS = "../app/data/comments.json"
 
 data_manager = DataManager(PATH_DATA, PATH_COMMENTS)
 api_logger = logging.getLogger("api_logger")
